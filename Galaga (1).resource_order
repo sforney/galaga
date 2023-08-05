@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_wave_spawner","order":2,"path":"objects/obj_wave_spawner/obj_wave_spawner.yy",},
+    {"name":"obj_formation","order":1,"path":"objects/obj_formation/obj_formation.yy",},
+    {"name":"sct_spawn_enemy","order":2,"path":"scripts/sct_spawn_enemy/sct_spawn_enemy.yy",},
+    {"name":"pth_left_side","order":3,"path":"paths/pth_left_side/pth_left_side.yy",},
+    {"name":"snd_butterfly_die","order":3,"path":"sounds/snd_butterfly_die/snd_butterfly_die.yy",},
+    {"name":"spr_boss_move","order":1,"path":"sprites/spr_boss_move/spr_boss_move.yy",},
+    {"name":"pth_top_attack_right","order":2,"path":"paths/pth_top_attack_right/pth_top_attack_right.yy",},
+    {"name":"snd_boss_die","order":6,"path":"sounds/snd_boss_die/snd_boss_die.yy",},
+    {"name":"sct_pathing","order":4,"path":"scripts/sct_pathing/sct_pathing.yy",},
+    {"name":"Sound10","order":1,"path":"sounds/Sound10/Sound10.yy",},
+    {"name":"sct_spawn_wave","order":3,"path":"scripts/sct_spawn_wave/sct_spawn_wave.yy",},
+    {"name":"snd_bee_die","order":4,"path":"sounds/snd_bee_die/snd_bee_die.yy",},
+    {"name":"snd_boss_hit","order":5,"path":"sounds/snd_boss_hit/snd_boss_hit.yy",},
+    {"name":"obj_game_start","order":3,"path":"objects/obj_game_start/obj_game_start.yy",},
+  ],
+}
