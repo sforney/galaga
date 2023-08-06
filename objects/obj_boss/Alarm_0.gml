@@ -1,6 +1,10 @@
 /// @description Damage or destroy
 if !damaged {
-	sprite_index = spr_boss_damaged_idle;
+	if(is_in_formation) {
+		sprite_index = spr_boss_damaged_idle;
+	} else {
+		sprite_index = spr_boss_damaged_move;
+	}
 	damaged = true;
 	if audio_is_playing(snd_boss_hit) {
 		audio_stop_sound(snd_boss_hit);

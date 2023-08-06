@@ -26,4 +26,5 @@ function path_ended(){
 
 function start_path() {
 	path_start(cur_path, 3, path_action_stop, true);
+	is_in_formation = false;
 }

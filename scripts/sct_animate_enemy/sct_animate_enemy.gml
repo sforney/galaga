@@ -1,12 +1,11 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/// @param {Id.Instance} obj The object to calculate the sprite index for
 /// @param {Asset.GMSprite} sprite The object's sprite sheet
-function animate_enemy(obj, sprite) {
-	var angle = obj.direction;
-	if(!obj.is_in_formation) {
-		obj.image_speed = 0; //disable animation
-		obj.sprite_index = sprite;
+function animate_enemy(sprite) {
+	var angle = direction;
+	if(!is_in_formation) {
+		image_speed = 0; //disable animation
+		sprite_index = sprite;
 		if(angle > 0 and angle < 180) {
 			image_yscale = 1;
 			if(image_angle > 0 and image_angle < 7.5) {
