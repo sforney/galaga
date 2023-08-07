@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Galaga (1)",
-    "path": "Galaga (1).yyp",
+    "name": "Galaga",
+    "path": "Galaga.yyp",
   },
   "preMultiplyAlpha": false,
   "sequence": {

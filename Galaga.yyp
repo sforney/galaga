@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.7",
-  "name": "Galaga (1)",
+  "name": "Galaga",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.800.0.389",
   },
   "resources": [
     {"id":{"name":"sct_animate_enemy","path":"scripts/sct_animate_enemy/sct_animate_enemy.yy",},},
@@ -40,6 +40,7 @@
     {"id":{"name":"spr_stage_marker_1","path":"sprites/spr_stage_marker_1/spr_stage_marker_1.yy",},},
     {"id":{"name":"Galaga","path":"sprites/Galaga/Galaga.yy",},},
     {"id":{"name":"spr_scorpion_idle","path":"sprites/spr_scorpion_idle/spr_scorpion_idle.yy",},},
+    {"id":{"name":"sct_beam","path":"scripts/sct_beam/sct_beam.yy",},},
     {"id":{"name":"spr_bee_hit","path":"sprites/spr_bee_hit/spr_bee_hit.yy",},},
     {"id":{"name":"obj_star","path":"objects/obj_star/obj_star.yy",},},
     {"id":{"name":"spr_butterfly_idle","path":"sprites/spr_butterfly_idle/spr_butterfly_idle.yy",},},
@@ -62,6 +63,7 @@
     {"id":{"name":"snd_butterfly_die","path":"sounds/snd_butterfly_die/snd_butterfly_die.yy",},},
     {"id":{"name":"spr_boss_hurt_idle","path":"sprites/spr_boss_hurt_idle/spr_boss_hurt_idle.yy",},},
     {"id":{"name":"spr_boss_move","path":"sprites/spr_boss_move/spr_boss_move.yy",},},
+    {"id":{"name":"obj_beam","path":"objects/obj_beam/obj_beam.yy",},},
     {"id":{"name":"pth_top_attack_right","path":"paths/pth_top_attack_right/pth_top_attack_right.yy",},},
     {"id":{"name":"spr_stage_marker_5","path":"sprites/spr_stage_marker_5/spr_stage_marker_5.yy",},},
     {"id":{"name":"snd_challenging_stage_perfect","path":"sounds/snd_challenging_stage_perfect/snd_challenging_stage_perfect.yy",},},
