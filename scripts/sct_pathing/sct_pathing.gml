@@ -17,6 +17,9 @@ function path_ended(){
 			path_start(path, 3, path_action_stop, true);
 			cur_path = path;
 			break;
+		case pth_attack_loop:
+			is_in_formation = false;
+			path_start(pth_attack_loop, 3, path_action_stop, true);
 		default:
 			is_in_formation = true;
 			obj_formation.contents[formation_slot] = self;

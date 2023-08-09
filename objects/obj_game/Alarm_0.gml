@@ -27,7 +27,8 @@ switch(wave_pattern) {
 		wave_pattern++;
 		break;
 	case 5:
-		//start dive attacks
+		//enemies[30].cur_path = pth_attack_loop;
+		break;
 	default:
 }
 alarm_set(0, 210);

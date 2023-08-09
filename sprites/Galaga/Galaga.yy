@@ -14,6 +14,9 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d2d68f7f-90ad-4d0e-9991-94be2a8691a8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"97cf0f8e-b1b9-4a8b-920b-9d06760436f7",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"feafe55d-3de5-421b-bf40-20a745cd64d5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d4b3f6c3-a2f1-411a-9aa7-334a1d866bb0",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -66,7 +69,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -78,6 +81,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d2d68f7f-90ad-4d0e-9991-94be2a8691a8","path":"sprites/Galaga/Galaga.yy",},},},"Disabled":false,"id":"95ffc6ea-796e-4fad-be44-c2c0274c238e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"97cf0f8e-b1b9-4a8b-920b-9d06760436f7","path":"sprites/Galaga/Galaga.yy",},},},"Disabled":false,"id":"dcc04a2d-0cf5-4d1d-9d07-98fdd7cf6e82","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"feafe55d-3de5-421b-bf40-20a745cd64d5","path":"sprites/Galaga/Galaga.yy",},},},"Disabled":false,"id":"4254f449-715d-4308-b000-6d8e9299bba0","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d4b3f6c3-a2f1-411a-9aa7-334a1d866bb0","path":"sprites/Galaga/Galaga.yy",},},},"Disabled":false,"id":"73cd1786-e1af-4cfa-8c7f-ead45f491a62","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
