@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sct_enter_formation",
+  "name": "sct_formation",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

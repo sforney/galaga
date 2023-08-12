@@ -8,14 +8,7 @@ function path_ended(){
 		case pth_right_side:
 		case pth_left_side:
 			//make path to formation
-			var path = path_add();
-			path_set_closed(path, false);
-			var path_x = obj_formation.formation_coords[formation_slot].x_form;
-			var path_y = obj_formation.formation_coords[formation_slot].y_form;
-			path_add_point(path, x, y, 100);
-			path_add_point(path, path_x, path_y, 100);
-			path_start(path, 3, path_action_stop, true);
-			cur_path = path;
+			path_to_formation();
 			break;
 		case pth_attack_loop:
 			is_in_formation = false;
@@ -30,4 +23,15 @@ function path_ended(){
 function start_path() {
 	path_start(cur_path, 2.5, path_action_stop, true);
 	is_in_formation = false;
+}
+
+function path_to_formation() {
+	var path = path_add();
+	path_set_closed(path, false);
+	var path_x = obj_formation.formation_coords[formation_slot].x_form;
+	var path_y = obj_formation.formation_coords[formation_slot].y_form;
+	path_add_point(path, x, y, 100);
+	path_add_point(path, path_x, path_y, 100);
+	path_start(path, 3, path_action_stop, true);
+	cur_path = path;
 }

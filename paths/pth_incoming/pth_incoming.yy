@@ -5,8 +5,8 @@
   "closed": false,
   "kind": 1,
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "pth_group_incoming",
+    "path": "folders/Paths/pth_group_incoming.yy",
   },
   "points": [
     {"speed":100.0,"x":190.23506,"y":-51.453644,},
@@ -20,4 +20,7 @@
     {"speed":100.0,"x":82.29455,"y":259.8227,},
   ],
   "precision": 4,
+  "tags": [
+    "incoming",
+  ],
 }
