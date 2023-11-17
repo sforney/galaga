@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "sct_animate_enemy",
+  "name": "sct_enemy",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

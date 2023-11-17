@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+/*
 if(cur_timer == 0) {
 	cur_timer = move_timer;
 	array_foreach(formation_coords, formation_move);
@@ -18,7 +20,7 @@ if(cur_timer == 0) {
 } else {
 	cur_timer--;
 }
-
+*/
 
 
 

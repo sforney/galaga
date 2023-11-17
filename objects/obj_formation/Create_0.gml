@@ -8,10 +8,12 @@ var y_formation_start = 36
 for(i = 0; i < 5; i++) {
 	for(j = 0; j < 10; j++) {
 		formation_coords[i * 10 + j] = 
-		{"x_form": x_formation_start + (17*j),
-			"y_form": y_formation_start + (17*i)};
+		{
+			"x_form": x_formation_start + (17*j),
+			"y_form": y_formation_start + (17*i)
+		};
 	}
 }
-alarm_set(0, 5);
+//alarm_set(0, 5);
 
 

@@ -7,6 +7,7 @@
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
+    {"name":"pth_group_incoming","order":7,"path":"folders/Paths/pth_group_incoming.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
@@ -15,7 +16,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"pth_group_incoming","order":7,"path":"folders/Paths/pth_group_incoming.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_blue_star","order":20,"path":"sprites/spr_blue_star/spr_blue_star.yy",},
@@ -67,6 +67,7 @@
     {"name":"obj_enemy","order":10,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_boss_idle","order":11,"path":"sprites/spr_boss_idle/spr_boss_idle.yy",},
     {"name":"snd_explosion","order":2,"path":"sounds/snd_explosion/snd_explosion.yy",},
+    {"name":"sct_enums","order":3,"path":"scripts/sct_enums/sct_enums.yy",},
     {"name":"spr_stage_marker_10","order":26,"path":"sprites/spr_stage_marker_10/spr_stage_marker_10.yy",},
     {"name":"spr_magenta_star","order":21,"path":"sprites/spr_magenta_star/spr_magenta_star.yy",},
     {"name":"obj_enemy_explosion","order":3,"path":"objects/obj_enemy_explosion/obj_enemy_explosion.yy",},

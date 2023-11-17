@@ -1,27 +1,30 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-/// Rotates an enemy ship towards 90 degrees
-function enter_formation() {
-	var center_image = 6;
-	
-	if(image_index < center_image) {
-		image_index++;
-	} else if(image_index > center_image) {
-		image_index--;
-	}
-	return image_index == center_image;
+function lock_formation() {
+	obj_formation.isLocked = true;	
 }
 
-function formation_move(value, index) {
-	if(value != undefined) {
-		if(translate_direction == "right") {
-			value.x_form += translate_step;
+function unlock_formation() {
+	obj_formation.isLocked = false;	
+}
+
+function formation_translate() {
+	if(!obj_formation.isLocked || obj_formation.translate_counter != 0) {
+		if(obj_formation.translate_counter == obj_formation.translate_max) {
+			obj_formation.translate_direction = translate_dir.LEFT;
+			obj_formation.translate_counter--;
+		} else if (obj_formation.translate_counter == 0) {
+			obj_formation.translate_direction = translate_dir.RIGHT;
+			obj_formation.translate_counter++;
+		} else if(obj_formation.translate_direction = translate_dir.RIGHT) {
+			obj_formation.translate_counter++;	
 		} else {
-			value.x_form -= translate_step;
+			obj_formation.translate_counter--;	
 		}
 	}
 }
 
+/*
 function move_enemy_in_formation(value, index) {
 	if(value != undefined) {
 		if(translate_direction == "right") {		
@@ -31,9 +34,13 @@ function move_enemy_in_formation(value, index) {
 		}
 	}
 }
+*/
 
 function move_formation_paths(value, index) {
-	if(value != -1 && !value.is_in_formation && !asset_has_tags(value.cur_path, "incoming", asset_path)) {
+	if(value != -1 &&
+		!value.is_in_formation &&
+		!asset_has_tags(value.cur_path, "incoming", asset_path)) {
+		value.cur_path = path_to_formation(value.formation_slot);
 		value.path_updated = true;
 	}
 }

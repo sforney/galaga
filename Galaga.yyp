@@ -18,6 +18,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"pth_group_incoming","folderPath":"folders/Paths/pth_group_incoming.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
@@ -26,16 +27,15 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"pth_group_incoming","folderPath":"folders/Paths/pth_group_incoming.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.800.0.389",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
-    {"id":{"name":"sct_animate_enemy","path":"scripts/sct_animate_enemy/sct_animate_enemy.yy",},},
+    {"id":{"name":"sct_enemy","path":"scripts/sct_enemy/sct_enemy.yy",},},
     {"id":{"name":"spr_blue_star","path":"sprites/spr_blue_star/spr_blue_star.yy",},},
     {"id":{"name":"spr_yellow_star","path":"sprites/spr_yellow_star/spr_yellow_star.yy",},},
     {"id":{"name":"spr_stage_marker_1","path":"sprites/spr_stage_marker_1/spr_stage_marker_1.yy",},},
@@ -100,6 +100,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_boss_idle","path":"sprites/spr_boss_idle/spr_boss_idle.yy",},},
     {"id":{"name":"snd_explosion","path":"sounds/snd_explosion/snd_explosion.yy",},},
+    {"id":{"name":"sct_enums","path":"scripts/sct_enums/sct_enums.yy",},},
     {"id":{"name":"spr_stage_marker_10","path":"sprites/spr_stage_marker_10/spr_stage_marker_10.yy",},},
     {"id":{"name":"spr_magenta_star","path":"sprites/spr_magenta_star/spr_magenta_star.yy",},},
     {"id":{"name":"obj_enemy_explosion","path":"objects/obj_enemy_explosion/obj_enemy_explosion.yy",},},
@@ -111,6 +112,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"texturegroup1","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

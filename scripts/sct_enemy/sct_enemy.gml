@@ -67,3 +67,15 @@ function animate_enemy(sprite) {
 		}
 	}
 }
+
+/// Rotates an enemy ship towards 90 degrees
+function enter_formation() {
+	var center_image = 6;
+	
+	if(image_index < center_image) {
+		image_index++;
+	} else if(image_index > center_image) {
+		image_index--;
+	}
+	return image_index == center_image;
+}

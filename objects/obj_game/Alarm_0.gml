@@ -27,7 +27,8 @@ switch(wave_pattern) {
 		wave_pattern++;
 		break;
 	case 5:
-		//enemies[30].cur_path = pth_attack_loop;
+		//enemies[30].cur_path = attack_path();
+		//enemies[30].path_updated = true;
 		break;
 	default:
 }

@@ -8,30 +8,41 @@ function path_ended(){
 		case pth_right_side:
 		case pth_left_side:
 			//make path to formation
-			path_to_formation();
+			cur_path = path_to_formation(formation_slot);
+			path_updated = true;
 			break;
-		case pth_attack_loop:
-			is_in_formation = false;
-			path_start(pth_attack_loop, 3, path_action_stop, true);
 		default:
+		if(obj_formation.formation_coords[formation_slot].x_form == x &&
+			obj_formation.formation_coords[formation_slot].y_form == y) {
 			is_in_formation = true;
 			obj_formation.contents[formation_slot] = self;
 			alarm_set(1, 3);
+		}
 	}
 }
 
 function start_path() {
-	path_start(cur_path, 2.5, path_action_stop, true);
+	path_start(cur_path, 3, path_action_stop, true);
 	is_in_formation = false;
 }
 
-function path_to_formation() {
+function path_to_formation(slot) {
 	var path = path_add();
 	path_set_closed(path, false);
-	var path_x = obj_formation.formation_coords[formation_slot].x_form;
-	var path_y = obj_formation.formation_coords[formation_slot].y_form;
+	var path_x = obj_formation.formation_coords[slot].x_form;
+	var path_y = obj_formation.formation_coords[slot].y_form;
 	path_add_point(path, x, y, 100);
 	path_add_point(path, path_x, path_y, 100);
 	path_start(path, 3, path_action_stop, true);
-	cur_path = path;
+	return path;
+}
+
+function attack_path() {
+	var path = path_add();
+	path_set_closed(path, false);
+	path_add_point(path, x, y, 100);
+	path_add_point(path, x + 16, y + 16, 100);
+	path_add_point(path, x + 32, y, 100);
+	path_add_point(path, obj_player.x, obj_player.y + 32, 100);
+	return path;
 }
