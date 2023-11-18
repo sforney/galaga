@@ -29,6 +29,7 @@ switch(wave_pattern) {
 	case 5:
 		//enemies[30].cur_path = attack_path();
 		//enemies[30].path_updated = true;
+		lock_formation();
 		break;
 	default:
 }

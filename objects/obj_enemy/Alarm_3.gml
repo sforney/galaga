@@ -1,10 +1,9 @@
 /// @description Display score
 // You can write your code in this editor
-sprite_index = spr_400;
-visible = true;
-y += 6; // center the score on the explosion
+instance_create_layer(x, y, "Instances", obj_400);
 obj_game.points += 400;
-alarm_set(2, 60);
+cur_state = enemy_state.DEAD;
+
 
 
 

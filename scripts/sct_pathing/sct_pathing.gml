@@ -9,21 +9,14 @@ function path_ended(){
 		case pth_left_side:
 			//make path to formation
 			cur_path = path_to_formation(formation_slot);
-			path_updated = true;
 			break;
 		default:
-		if(obj_formation.formation_coords[formation_slot].x_form == x &&
-			obj_formation.formation_coords[formation_slot].y_form == y) {
-			is_in_formation = true;
+			x = obj_formation.formation_coords[formation_slot].x_form;
+			y = obj_formation.formation_coords[formation_slot].y_form;
+			cur_state = enemy_state.FORMATION;
 			obj_formation.contents[formation_slot] = self;
 			alarm_set(1, 3);
-		}
 	}
-}
-
-function start_path() {
-	path_start(cur_path, 3, path_action_stop, true);
-	is_in_formation = false;
 }
 
 function path_to_formation(slot) {

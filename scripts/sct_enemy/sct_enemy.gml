@@ -3,7 +3,7 @@
 /// @param {Asset.GMSprite} sprite The object's sprite sheet
 function animate_enemy(sprite) {
 	var angle = direction;
-	if(!is_in_formation) {
+	if(cur_state == enemy_state.FLYIN || cur_state == enemy_state.DIVE) {
 		image_speed = 0; //disable animation
 		sprite_index = sprite;
 		if(angle > 0 and angle < 180) {
@@ -70,6 +70,9 @@ function animate_enemy(sprite) {
 
 /// Rotates an enemy ship towards 90 degrees
 function enter_formation() {
+	//cur_state = enemy_state.FORMATION;
+	x = obj_formation.formation_coords[formation_slot].x_form;
+	y = obj_formation.formation_coords[formation_slot].x_form;
 	var center_image = 6;
 	
 	if(image_index < center_image) {

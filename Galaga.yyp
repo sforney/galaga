@@ -36,6 +36,7 @@
   },
   "resources": [
     {"id":{"name":"sct_enemy","path":"scripts/sct_enemy/sct_enemy.yy",},},
+    {"id":{"name":"obj_400","path":"objects/obj_400/obj_400.yy",},},
     {"id":{"name":"spr_blue_star","path":"sprites/spr_blue_star/spr_blue_star.yy",},},
     {"id":{"name":"spr_yellow_star","path":"sprites/spr_yellow_star/spr_yellow_star.yy",},},
     {"id":{"name":"spr_stage_marker_1","path":"sprites/spr_stage_marker_1/spr_stage_marker_1.yy",},},

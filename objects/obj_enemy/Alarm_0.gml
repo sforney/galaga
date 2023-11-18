@@ -1,6 +1,6 @@
 /// @description Damage or destroy
 if (self.health > 0) {
-	if(is_in_formation) {
+	if(cur_state == enemy_state.FORMATION) {
 		sprite_index = damaged_sprite;
 	} else {
 		sprite_index = move_damaged_sprite;
@@ -20,7 +20,7 @@ if (self.health > 0) {
 		visible = false;
 		alarm_set(3, 60);
 	} else {
-		alarm_set(2, 1);
+		cur_state = enemy_state.DEAD;
 	}
 }
 
