@@ -29,13 +29,3 @@ function path_to_formation(slot) {
 	path_start(path, 3, path_action_stop, true);
 	return path;
 }
-
-function attack_path() {
-	var path = path_add();
-	path_set_closed(path, false);
-	path_add_point(path, x, y, 100);
-	path_add_point(path, x + 16, y + 16, 100);
-	path_add_point(path, x + 32, y, 100);
-	path_add_point(path, obj_player.x, obj_player.y + 32, 100);
-	return path;
-}

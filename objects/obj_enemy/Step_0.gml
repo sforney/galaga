@@ -18,5 +18,8 @@ if(cur_state == enemy_state.DEAD) {
 			animate_enemy(move_damaged_sprite);
 		}
 	}
+} else if(cur_state == enemy_state.START_DIVE) {
+	dive_path_create(false);
+	cur_state = enemy_state.DIVE;
 }
 

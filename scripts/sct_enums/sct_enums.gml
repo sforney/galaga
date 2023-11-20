@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 enum translate_dir {
 	RIGHT, LEFT
 }
@@ -9,5 +7,9 @@ enum spread_dir {
 }
 
 enum enemy_state {
-	FLYIN, FORMATION, DIVE, DEAD
+	FLYIN, FORMATION, DIVE, DEAD, FORMATION_TRANSITION, START_DIVE
+}
+
+enum player_state {
+	ALIVE, DYING, DEAD
 }

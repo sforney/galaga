@@ -38,6 +38,7 @@
     {"name":"pth_left_side","order":2,"path":"paths/pth_left_side/pth_left_side.yy",},
     {"name":"spr_boss_hurt_move","order":27,"path":"sprites/spr_boss_hurt_move/spr_boss_hurt_move.yy",},
     {"name":"spr_bee_move","order":18,"path":"sprites/spr_bee_move/spr_bee_move.yy",},
+    {"name":"obj_enemy_bullet","order":12,"path":"objects/obj_enemy_bullet/obj_enemy_bullet.yy",},
     {"name":"spr_bee_hit_move","order":19,"path":"sprites/spr_bee_hit_move/spr_bee_hit_move.yy",},
     {"name":"spr_boss_hurt_idle","order":12,"path":"sprites/spr_boss_hurt_idle/spr_boss_hurt_idle.yy",},
     {"name":"obj_beam","order":9,"path":"objects/obj_beam/obj_beam.yy",},
@@ -73,5 +74,6 @@
     {"name":"spr_magenta_star","order":21,"path":"sprites/spr_magenta_star/spr_magenta_star.yy",},
     {"name":"obj_enemy_explosion","order":3,"path":"objects/obj_enemy_explosion/obj_enemy_explosion.yy",},
     {"name":"spr_background_star","order":10,"path":"sprites/spr_background_star/spr_background_star.yy",},
+    {"name":"sct_player","order":4,"path":"scripts/sct_player/sct_player.yy",},
   ],
 }

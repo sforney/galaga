@@ -27,8 +27,12 @@ switch(wave_pattern) {
 		wave_pattern++;
 		break;
 	case 5:
-		//enemies[30].cur_path = attack_path();
-		//enemies[30].path_updated = true;
+		var rand = irandom(array_length(obj_formation.contents - 1));
+		var enemy = obj_formation.contents[rand];
+		if(instance_exists(enemy) &&
+			variable_instance_exists(enemy, "cur_state")) {
+			enemy.cur_state = enemy_state.START_DIVE;
+		}
 		lock_formation();
 		break;
 	default:
